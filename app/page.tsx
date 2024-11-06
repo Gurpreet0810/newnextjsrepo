@@ -116,9 +116,33 @@ export default function Home() {
         </div>
       </div>
     </nav>
+{/* body start */}
 
+<section className="w-full">
+      <div className="container mx-auto">
+        <div className="relative w-full">
+          <img src="/banner.jpg" alt="banner" className="w-full" />
+          <div className="absolute top-1/2 left-6 transform -translate-y-1/2 text-white">
+            <strong className="block text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase leading-tight">
+              <span className="block text-3xl md:text-4xl lg:text-5xl font-normal tracking-wider">Meeting current</span>
+              needs now
+            </strong>
+            <p className="mt-2 text-base md:text-lg lg:text-xl leading-6">
+              You can prioritize a child’s mental, emotional, <br />
+              behavioral, and physical health
+            </p>
+            <a
+              href="#"
+              className="inline-block mt-4 bg-gray-800 hover:bg-green-600 text-white font-extrabold text-sm lg:text-base py-3 px-6 rounded-full transition duration-300"
+            >
+              Lend a hand
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
+{/* body end */}
 {/* footer start */} 
 <br>
 </br>
